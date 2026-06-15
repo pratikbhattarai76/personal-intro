@@ -1,0 +1,9 @@
+*{
+    background-color: #D9D9D9;
+}
+
+.hero img{
+    height: 400px;
+    width: 300px;
+    padding: 60px 20px;
+}
