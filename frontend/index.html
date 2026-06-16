@@ -42,5 +42,67 @@
             </ul>
         </div>
     </div>
+
+    <div class="form">
+        <h2>Form</h2>
+        <form>
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name.">
+            </div>
+
+            <div class="age">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age">
+            </div>
+            
+            <div class="jobrole">
+                <label for="jobrole">Which option describes you?</label>
+                <select id="jobrole" name="jobrole" required> 
+                    <option value="" selected disabled>Select an option</option>
+                    <option value="employee">Employee</option>
+                    <option value="intern">Intern</option>
+                    <option value="trainee">Trainee</option>
+                </select>
+            </div>
+
+            <div class="recommend">
+                <label for="recommend">Would you recommend Sajilo Softwares to your friend?</label>
+                <select id="recommend" name="recommend" required> 
+                    <option value="" selected disabled>Select an option</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="maybe">Maybe</option>
+                </select>
+            </div>
+
+            <div class="checkbox">
+                <label>Languages or framework used:</label>
+                <div class="languages">
+                    <label><input type="checkbox" name="languages" value="html">HTML</label>
+                    <label><input type="checkbox" name="languages" value="css">CSS</label>
+                    <label><input type="checkbox" name="languages" value="javascript">JavaScript</label>
+                    <label><input type="checkbox" name="languages" value="c">C</label>
+                    <label><input type="checkbox" name="languages" value="c++">C++</label>
+                    <label><input type="checkbox" name="languages" value="python">Python</label>
+                    <label><input type="checkbox" name="languages" value="ruby">Ruby</label>
+                    <label><input type="checkbox" name="languages" value="rust">Rust</label>
+                    <label><input type="checkbox" name="languages" value="react.js">React.js</label>
+                    <label><input type="checkbox" name="languages" value="node.js">Node.js</label>
+                    <label><input type="checkbox" name="languages" value="laravel">Laravel</label>
+                </div>
+            </div>
+
+            <div class="comment">
+                <label for="suggestion">Comment or Suggestion:</label>
+                <textarea name="suggestion" id="suggestion" placeholder="Write your comment here."></textarea>
+            </div>
+
+            <div class="submit">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
