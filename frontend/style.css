@@ -92,3 +92,7 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+.form > div {
+    margin-bottom: 1rem;
+}
