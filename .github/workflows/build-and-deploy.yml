@@ -51,6 +51,6 @@ jobs:
       - name: Pull and restart
         working-directory: /home/pratik/docker/personal-intro
         run: |
-          docker compose pull personal-intro
-          docker compose up -d --force-recreate personal-intro
+          docker compose pull
+          docker compose up -d --force-recreate
           docker image prune -f
