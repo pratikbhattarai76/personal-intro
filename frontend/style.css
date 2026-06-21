@@ -80,7 +80,7 @@ body {
 .form{
     margin: 3rem auto;
     padding: 2rem;
-    background: rgba(192, 188, 188,s 0.364);
+    background: rgba(192, 188, 188, 0.364);
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.8);
     border-top: 4px solid #4f46e5;
