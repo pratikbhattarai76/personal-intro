@@ -33,7 +33,7 @@ jobs:
           tags: |
             ${{ env.IMAGE_NAME }}:latest
             ${{ env.IMAGE_NAME }}:${{ github.sha }}
-            
+
   deploy:
     needs: build-and-push
     runs-on: [self-hosted, deploy]
@@ -49,7 +49,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN}}
 
       - name: Pull and restart
-        working-directory: /home/pratik/deploy
+        working-directory: /home/pratik/docker/personal-intro
         run: |
           docker compose pull personal-intro
           docker compose up -d --force-recreate personal-intro
