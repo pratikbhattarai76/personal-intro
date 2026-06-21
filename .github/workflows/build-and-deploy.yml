@@ -52,5 +52,5 @@ jobs:
         working-directory: /home/pratik/docker/personal-intro
         run: |
           docker compose pull
-          docker compose up -d --force-recreate
+          docker compose up -d
           docker image prune -f
